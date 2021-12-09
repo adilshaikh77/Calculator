@@ -1,0 +1,59 @@
+.frame {
+    border: 1px solid rgb(248, 245, 245);
+    box-shadow: 10px 10px 30px 0px rgb(58, 55, 55);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 560px;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.button{
+    height: 60px;
+    padding: 5px;
+    background-color: rgb(139, 120, 41);
+    border-radius: 1px;
+    border: 1px solid #c4c4c4;
+    background-color: black;
+    font-size: medium;
+    color: black;       
+}
+
+.button:hover{
+    background-color:white; 
+}
+
+.operator{
+    color: black;
+    background-color: yellow;
+}
+
+.clear{
+    background-color: red;
+    border-color: black;
+    color: black;
+}
+
+.clear:hover{
+    background-color: white;
+}
+
+.equal-sign{
+    background-color: transparent;
+    border-color: turquoise;
+    color: rgb(31, 28, 31);
+}
+
+.equal-sign:hover{
+    background-color:transparent;
+}
